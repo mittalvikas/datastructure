@@ -1,3 +1,5 @@
+package recursion;
+
 /**
  * Tail recursion is function calling itself after the function steps
  * Head recursion is function calling itself before the function steps

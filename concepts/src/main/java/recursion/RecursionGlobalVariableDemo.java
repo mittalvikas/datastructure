@@ -1,6 +1,8 @@
+package recursion;
+
 public class RecursionGlobalVariableDemo {
     private static int globalVar = 0;
-    
+
     public static void main(String[] args) {
         System.out.println("localVariableFunc: "+localVariableFunc(3));
         System.out.println("globalVariableFunc: "+globalVariableFunc(5));
