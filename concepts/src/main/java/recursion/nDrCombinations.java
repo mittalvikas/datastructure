@@ -18,7 +18,7 @@ public class nDrCombinations {
 
     public static void main(String[] args) {
 
-        System.out.println("Result: "+ combinations(4,2));
+        System.out.println("Result: "+ combinations(5,3));
     }
 
     private static int combinations(int n, int r) {
