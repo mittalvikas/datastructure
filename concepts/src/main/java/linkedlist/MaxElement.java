@@ -14,8 +14,8 @@ public class MaxElement {
         if(head==null){
             return Integer.MIN_VALUE;
         }
-
-        return Math.max(maxElementRecursive(head.next),head.data);
+        int x =  maxElementRecursive(head.next);
+        return x > head.data ? x : head.data;
     }
 
     private static int maxElement(Node<Integer> head) {
@@ -24,7 +24,7 @@ public class MaxElement {
 
         while(head!=null){
 
-            max = Math.max(max,head.data);
+            max = max > head.data ? max : head.data;
             head=head.next;
         }
 
