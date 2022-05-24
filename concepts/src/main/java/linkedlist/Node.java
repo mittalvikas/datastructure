@@ -1,5 +1,6 @@
 package linkedlist;
 
+
 import java.util.Objects;
 
 public class Node<T> {

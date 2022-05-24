@@ -1,7 +1,7 @@
 package linkedlist;
 
 public class PrintList {
-    static StringBuilder sb = new StringBuilder();
+    private static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) {
 
         Node<Integer> head = CreateList.createListFromArray(new int[]{1, 2, 3, 4, 5, 6, 7});
@@ -10,6 +10,7 @@ public class PrintList {
             System.out.print(head.data+"->");
             head=head.next;
         }
+        System.out.println();
         System.out.println("Recursive list display");
         display(CreateList.createListFromArray(new int[]{1, 2, 3, 4, 5, 6, 7}));
 
@@ -20,7 +21,19 @@ public class PrintList {
 
     }
 
-    public static void display(Node head){
+    public static void print(Node head){
+        Node cur = head;
+        System.out.println();
+        while(cur!=null){
+            System.out.print(cur.data+"->");
+            cur=cur.next;
+        }
+        System.out.print("NULL");
+
+    }
+
+
+    private static void display(Node head){
 
         if(head==null){
             sb.append("NULL");
@@ -33,7 +46,7 @@ public class PrintList {
 
 
     }
-    public static void displayReverse(Node head){
+    private static void displayReverse(Node head){
 
         if(head!=null) {
             displayReverse(head.next);
