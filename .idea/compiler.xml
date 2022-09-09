@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="concepts" target="1.7" />
       <module name="datastructure" target="1.5" />
-      <module name="dsconcepts" target="1.7" />
+      <module name="dsconcepts" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
