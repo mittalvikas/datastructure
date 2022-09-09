@@ -8,7 +8,6 @@ package ae.binarytree;
 public class MaxPathSum {
     private static int max;
     public static int maxPathSum(BinaryTree tree) {
-        // Write your code here.
         max = Integer.MIN_VALUE;
         DFS(tree);
         return max;

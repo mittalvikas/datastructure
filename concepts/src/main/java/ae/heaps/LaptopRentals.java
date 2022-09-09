@@ -11,7 +11,6 @@ import java.util.PriorityQueue;
  */
 public class LaptopRentals {
     public int laptopRentals(ArrayList<ArrayList<Integer>> times) {
-        // Write your code here.
         List<Interval> sortedTimes= new ArrayList<>();
         for(List<Integer> time:times){
             sortedTimes.add(new Interval(time.get(0),time.get(1)));

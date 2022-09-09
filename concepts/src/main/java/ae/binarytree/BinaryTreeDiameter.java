@@ -18,7 +18,6 @@ public class BinaryTreeDiameter {
 
         private static int max;
         public int binaryTreeDiameter(BinaryTree tree) {
-            // Write your code here.
             max = -1;
             DFS(tree);
             return max;

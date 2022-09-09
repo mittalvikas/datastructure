@@ -10,7 +10,6 @@ import java.util.PriorityQueue;
 public class SortKSortedArray {
 
     public int[] sortKSortedArray(int[] array, int k) {
-        // Write your code here.
 
         if(array.length==0)return array;
         PriorityQueue<Integer> heap = new PriorityQueue<>();

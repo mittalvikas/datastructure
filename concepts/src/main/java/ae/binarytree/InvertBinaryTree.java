@@ -7,7 +7,6 @@ package ae.binarytree;
 public class InvertBinaryTree {
 
         public static void invertBinaryTree(BinaryTree tree) {
-            // Write your code here.
 
 
             DFS(tree);

@@ -17,7 +17,6 @@ public class BalancedHightTree {
 
     private static boolean res;
     public boolean heightBalancedBinaryTree(BinaryTree tree) {
-        // Write your code here.
         res = true;
         DFS(tree,0);
         return res;

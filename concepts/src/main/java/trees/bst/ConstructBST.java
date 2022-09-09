@@ -26,8 +26,6 @@ package trees.bst;
             }
 
             public BST insert(int value) {
-                // Write your code here.
-                // Do not edit the return statement of this method.
 
 
                 return insertNode(this,value);
@@ -49,7 +47,6 @@ package trees.bst;
             }
 
             public boolean contains(int value) {
-                // Write your code here.
                 BST root = this;
 
                 boolean found = false;
@@ -72,8 +69,6 @@ package trees.bst;
 
 
             public BST remove(int value) {
-                // Write your code here.
-                // Do not edit the return statement of this method.
                 BST root =  delete(this,value);
                 if(root!=null) {
                     this.value = root.value;

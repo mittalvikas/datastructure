@@ -4,7 +4,6 @@ import java.util.*;
 
 public class TwoSum {
     public static int[] twoNumberSum(int[] array, int targetSum) {
-        // Write your code here.
         int [] a = new int [2];
         Set<Integer> set = new HashSet<Integer>();
         for (int i=0; i< array.length;i++) {
